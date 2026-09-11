@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-from proyecto_2.features import crear_features
+from features import crear_features
 
 def pronosticar(bundle, historial, horizonte=14):
     """
